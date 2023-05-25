@@ -1,0 +1,23 @@
+#scroll-btn{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    background: rebeccapurple;
+    border: 2px solid white;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border-radius: 1.5rem;
+}
+#scroll-btn:hover{
+    background:black;
+    border: 2px solid white;
+
+}
+*{
+    padding: 1rem;
+    background-color: cadetblue;
+}

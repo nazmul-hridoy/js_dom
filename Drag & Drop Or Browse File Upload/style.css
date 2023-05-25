@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(200, 213, 210, 0.499);
+    height: 100vh;
+}
+.app-body{
+    border: 2px dotted rgb(187, 181, 172);
+    width: 600px; 
+    height: 500px; 
+    background-color: rgb(175, 195, 190);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.app-body.active{
+    border: 2px solid black;
+}
+
+.icon{
+    font-size: 100px;
+    color: rgba(225, 60, 23, 0.977);
+}
+
+.app-body h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.app-body span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.app-body button{
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    color: rgba(183, 238, 100, 0.798);
+    cursor: pointer;
+
+
+}
+.app-body button:hover{
+    background-color: rgb(179, 73, 73);
+    color: black;
+
+
+}
+
+.app-body img{
+    width: 580px; 
+    height: 480px; 
+    border-radius: 5px;
+    object-fit:contain;
+}
