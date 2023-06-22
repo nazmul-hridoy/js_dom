@@ -1,0 +1,84 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner-container {
+    background-color: darkgrey;
+}
+
+.banner-column {
+    background-color: rgba(77, 74, 74, 0.962);
+}
+
+.navbar-container {
+    background-color: aquamarine;
+    color: black;
+    font-size: xx-large;
+    font-weight: 900;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.about-container {
+    background-color: brown;
+    color: azure;
+
+}
+
+.col-md-3 {
+    padding-top: 70px;
+}
+
+.link-container {
+    background-color: rgb(112, 121, 138);
+}
+
+.font-redish {
+    color: rgb(116, 15, 15);
+}
+
+.circle {
+    background-color: cornflowerblue;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.form-container {
+    background-color: blanchedalmond;
+}
+
+.inner-form {
+    background-color: rgba(172, 13, 13, 0.405);
+}
+
+.button-bg {
+    color: dodgerblue;
+    background-color: crimson;
+}
+
+.button-bg:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.footer {
+    background-color: dodgerblue;
+}
+
+.footer-circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: azure;
+    font-size: 40px;
+    text-align: center;
+}
+
+.footer-circle:hover {
+    background-color: rgb(13, 86, 86);
+    font-size: 40px;
+    text-align: center;
+}
